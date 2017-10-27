@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="A simple jQuery based strong password generator">
+    <meta name="author" content="Antonis Koufis">
+    <meta name="keywords" content="Pass Generator, Password, Password Generator, Jquery, strong password">
+
+    <title>PassGenerator - Online free passwords generator</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/portfolio-item.css" rel="stylesheet">
+	
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+	
+	
+
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">PASS GENERATOR</a>
+        
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a href=""><i class="fa fa-github" aria-hidden="true"></i>GitHub</a>
+            </li>
+          </ul>
+        </div>
+	
+      </div>
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+
+      <!-- Portfolio Item Heading -->
+      <h1 class="my-4 title">Pass Generator</h1>
+      <h2 class="subtitle">A simple jQuery based strong password generator</h2>
+
+      <!-- Portfolio Item Row -->
+      <div class="row">
+		<div class="col-md-2"></div>
+        <div class="col-md-7 col-12">
+            <div class="input-group">
+				<input id="generated-pass" type="text" class="form-control" placeholder="Password will appear here...">
+					<span class="input-group-btn">
+					<button id="action" class="btn btn-default" type="button">Generate</button>
+				</span>
+			</div><!-- /input-group -->
+        </div>
+
+        <div class="col-md-2 col-12 copy-col" >
+          <button id="copy" type="button" class="btn btn-primary">Copy</button>
+        </div>
+
+      </div>
+      <!-- /.row -->
+      
+	  <div class="row more-row">
+		  <div class="col-md-2"></div>
+		  <div class="col-md-8" style="display:block">
+				  <a  class="" data-toggle="collapse" data-target="#demo" href="#demo">      Click here for more option <span class="glyphicon glyphicon-plus"></span></a>
+		  </div>
+		  <div class="col-md-2">
+
+		  </div>
+		  <!-- Related Projects Row -->
+       </div>
+ 
+
+      <div class="row" style="margin-bottom:2rem;">
+		  <div class="col-md-2">  </div>
+		  <div id="demo"  class="col-md-8 collapse in">   
+			<div class="row">	 
+				 <div class="col-md-6">
+					
+					<p class="par-label first">Password Length:</p>
+					<input id="password-length" type="text" class="form-control" placeholder="Default length is 8 characters">
+
+					<p class="par-label">Include Lowercase Characters:</p>
+					<input id="include-lowercase-characters" type="text" class="form-control" placeholder="Default: abcdefghijklmnopqrstuvwxyz">
+					
+					<p class="par-label">Include Uppercase Characters:</p>
+					<input id="include-uppercase-characters" type="text" class="form-control" placeholder="Default: ABCDEFGHIJKLMNOPQRSTUVWXYZ">
+
+					
+				 </div>				
+				 <div class="col-md-6">
+				 					
+					<p class="par-label">Include Numbers:</p>
+					<input id="include-numbers" type="text" class="form-control" placeholder="Default: 0123456789">
+					
+					<p class="par-label">Include Symbols:</p>
+					<input id="include-symbols" type="text" class="form-control" placeholder="Default: !&#$%&\()*+,-./:;<=>?@[]^_`{|}~">
+				 </div>
+			</div>
+		  </div>
+		  <div class="col-md-2"></div>
+		  <!-- Related Projects Row -->
+  
+
+      </div>
+      <!-- /.row -->
+
+    </div>
+    <!-- /.container -->
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white" style="font-size:13px; line-height: 25px;">Copyright &copy; pass-generator.com 2017</p>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/popper/popper.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    
+    <script src="inc/generator.js"></script>	
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-108059924-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-108059924-1');
+</script>
+	
+  </body>
+
+</html>

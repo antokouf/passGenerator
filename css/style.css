@@ -1,0 +1,70 @@
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url('../fonts/glyphicons-halflings-regular.eot');
+  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
+}
+
+.par-label
+ {
+    margin-bottom: 0;
+    margin-top: 1rem;
+}
+
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 25px;
+}
+footer.py-5 {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 25px;
+  background-color: #f5f5f5;
+  padding-bottom:0px !important;
+  padding-top:0px !important;
+  }
+  
+  
+h1.title, h2.subtitle {
+    text-align:center;
+    margin-bottom:1.5rem;
+}
+
+h1.title {
+  margin-bottom:0.5rem !important;
+}
+
+h2.subtitle {
+  font-size:17px;
+  line-height:normal;
+}
+
+@media screen and (max-width:768px) {
+    .btn.btn-primary {
+        width:100%;
+        margin-top:1rem;
+    }
+    
+    .par-label.first {
+        margin-top:0.4rem;
+    }
+    
+    #demo {
+        margin-bottom:1.5rem;
+    }
+}
+
+.copy-col {
+    text-align:left;
+}
+
+.more-row {
+     margin-top:1rem;
+     margin-bottom:0rem;
+}
